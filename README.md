@@ -52,25 +52,6 @@ npm test
 ```bash
 npm run build
 npm run start
-```
-
-## GitHub permissions and 403 errors
-
-A 403 Forbidden error from a GitHub integration usually indicates one of the following:
-
-1. The GitHub App or bot does not have repository access.
-2. The repository is protected by branch rules and the integration cannot push.
-3. The integration is not granted write access to the repo.
-4. The app is authenticated to the wrong GitHub account or organization.
-5. The integration lacks the required permissions for contents, workflows, or pull requests.
-
-The fix is to check:
-
-- Repository → Settings → Collaborators and teams
-- Repository → Settings → Actions → General
-- Repository → Settings → Branches
-- GitHub App authorization for the integration
-
 Do not share private keys, access tokens, or passwords. The application never needs them for read-only blockchain inspection.
 
 ## Features implemented
